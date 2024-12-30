@@ -39,6 +39,7 @@ for (let qualification of qualifications) {
 }
 document.write("</ul>");
 // Store student scores in an array
+
 let studentScores = [78, 45, 92, 60, 88, 35, 50];
 
 // Sort the array in ascending order
@@ -71,3 +72,22 @@ document.write("<h1>Combined String:</h1>");
 document.write("<p>" + singleString + "</p>");
 
 //========================>ASSIGNMENT NO 4 DONE ========================>
+
+
+
+
+  // let str = "huzaifa" ;
+  // console.log(`${str[0].toUpperCase()}${str.slice(1)}`);
+  
+
+  let str = "huzaifa" ;
+  document.write(`${str[0].toUpperCase()}${str.slice(1)}`);
+
+
+  let arr1 = ["karachi","lahore","islamabad"];
+  let last = arr1.pop();
+  let frist = arr1.shift();
+
+  arr1.unshift(last);
+  arr1.push(frist);
+  console.log(arr1);
